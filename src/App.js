@@ -20,7 +20,7 @@ function App() {
   return (
     <>
      
-     <Login></Login> 
+    <HomePage>
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
         <Route path='/register' element={<RegisterPage></RegisterPage>}></Route>
@@ -30,6 +30,7 @@ function App() {
         <Route path='/success-alert' element={<SuccessAlert work='Registeration' description ='Now you can use your credentials to login to the system.' navigation='/login'></SuccessAlert>}></Route>
         <Route path='/appointment' element={<Appoiintment></Appoiintment>}></Route>
       </Routes>
+    </HomePage>
     </>
   );
 }
