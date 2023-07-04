@@ -28,7 +28,7 @@ function App() {
         <Route path='/success-alert' element={<SuccessAlert work='Registeration' description ='Now you can use your credentials to login to the system.' navigation='/login'></SuccessAlert>}></Route>
         <Route path='/appointment' element={<Appoiintment></Appoiintment>}></Route>
       </Routes> */}
-      <WelcomeSlide></WelcomeSlide>
+      <HomePage></HomePage>
     </div>
   );
 }
