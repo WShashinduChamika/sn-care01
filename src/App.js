@@ -11,6 +11,7 @@ import SuccessAlert from './component/succes_alert/SuccessAlert';
 import AppointmentPage from './pages/AppointmentPage';
 import Appoiintment from './component/appointment copy/Appoiintment';
 import NavBar from './component/navbar/NavBar';
+import WelcomeSlide from './component/welcome_slide/WelcomeSlide';
 
 
 
@@ -18,7 +19,7 @@ function App() {
   
   return (
     <div className="App" id='App'>
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
         <Route path='/register' element={<RegisterPage></RegisterPage>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
@@ -26,7 +27,8 @@ function App() {
         <Route path='/loading' element={<Loading ></Loading>}></Route>
         <Route path='/success-alert' element={<SuccessAlert work='Registeration' description ='Now you can use your credentials to login to the system.' navigation='/login'></SuccessAlert>}></Route>
         <Route path='/appointment' element={<Appoiintment></Appoiintment>}></Route>
-      </Routes>
+      </Routes> */}
+      <WelcomeSlide></WelcomeSlide>
     </div>
   );
 }
