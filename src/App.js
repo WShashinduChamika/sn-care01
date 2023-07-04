@@ -19,7 +19,7 @@ import ServicesComponent from './component/services/ServicesComponent';
 function App() {
   
   return (
-    <>
+    <div>
      <ServicesComponent></ServicesComponent>
     {/* <HomePage> */}
       {/* <Routes>
@@ -32,7 +32,7 @@ function App() {
         <Route path='/appointment' element={<Appoiintment></Appoiintment>}></Route>
       </Routes> */}
     {/* </HomePage> */}
-    </>
+    </div>
   );
 }
 
